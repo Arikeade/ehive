@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { Dashboard } from '@mui/icons-material';
+import Chart from './Chart';
+import Deposits from './Deposits'; 
+import Orders from './Orders';
+import Title from './Title';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Chart />
+    <Dashboard />
+    <Deposits/>
+    <listItems />
+    <Orders />
+    <Title />
   </React.StrictMode>
 );
 
