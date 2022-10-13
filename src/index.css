@@ -24,40 +24,6 @@ code {
     monospace;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
- 
-    .css-cvumne-MuiDrawer-docked .MuiDrawer-paper {
-     width: 400px !important;
-    }
-
-    .dashboard .page .rewards-wrapper {
-      padding: 1rem;
-  }
-
-  .number {
-    font-size: 17.6px !important;
-  }
-
-  .span{
-    font-size: 12.32px !important;
-  }
-
-  .hive {
-    font-size: 17.6px !important;
-  }
-
-  .logo {
-    width: 30px !important;
-    height: 30px !important;
-    margin: 5px !important;
-  }
-
-  .css-1k4g7q2-MuiPaper-root {
-    height: 150px !important;
-  }
-}
 
 /* Chart */
 
@@ -131,20 +97,6 @@ code {
   margin: auto;
 }
 
-@media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px) {
- 
-    .layer {
-      display: block ;
-
-    }
-
-    .layer1 {
-      height: 180px;
-      width: 100px;
-    }
-  }
 
 .layer1 {
   border: 1px solid #6f6f7b;
@@ -204,6 +156,52 @@ tbody {
   height: 90px;
 }
 
-@media screen {
-  
+
+
+
+
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px) {
+ 
+    .css-cvumne-MuiDrawer-docked .MuiDrawer-paper {
+     width: 400px !important;
+    }
+
+    .dashboard .page .rewards-wrapper {
+      padding: 1rem;
+  }
+
+  .number {
+    font-size: 17.6px !important;
+  }
+
+  .span{
+    font-size: 12.32px !important;
+  }
+
+  .hive {
+    font-size: 17.6px !important;
+  }
+
+  .logo {
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px !important;
+  }
+
+  .css-1k4g7q2-MuiPaper-root {
+    height: 150px !important;
+  }
+
+  .layer {
+    display: block ;
+
+  }
+
+  .layer1 {
+    height: 180px;
+    width: 100px;
+  }
 }
