@@ -3,20 +3,22 @@ import Link from '@mui/material/Link';
 import Typography from '@mui/material/Typography';
 import Title from './Title';
 
-function preventDefault(event: React.MouseEvent) {
+function preventDefault(event) {
   event.preventDefault();
 }
 
-export default function Deposits() {
+ function Deposits() {
   return (
     <React.Fragment>
-      <Title>Recent Deposits</Title>
-      <Typography component="p" variant="h4">
+      <h2>Recent Deposits</h2>
+      <p> 
+        <h4>
         $3,024.00
-      </Typography>
-      <Typography color="text.secondary" sx={{ flex: 1 }}>
+        </h4>
+      </p>
+      <p className=''>
         on 15 March, 2019
-      </Typography>
+      </p>
       <div>
         <Link color="primary" href="#" onClick={preventDefault}>
           View balance
@@ -25,3 +27,5 @@ export default function Deposits() {
     </React.Fragment>
   );
 }
+
+export default Deposits ;
