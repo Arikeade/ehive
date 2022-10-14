@@ -11,10 +11,10 @@ header{
   display: none !important;
 }
 
-.css-78trlr-MuiButtonBase-root-MuiIconButton-root {
+/* .css-78trlr-MuiButtonBase-root-MuiIconButton-root {
   height: 30px;
   padding-top: 10px;
-}
+} */
 
 
 
@@ -158,9 +158,9 @@ tbody {
 @media only screen and (min-width: 320px) {
  
  
-    .css-cvumne-MuiDrawer-docked .MuiDrawer-paper {
+    /* .css-cvumne-MuiDrawer-docked .MuiDrawer-paper {
      width: 400px !important;
-    }
+    } */
 
     .dashboard .page .rewards-wrapper {
       padding: 1rem;
@@ -184,9 +184,9 @@ tbody {
     margin: 5px !important;
   }
 
-  .css-1k4g7q2-MuiPaper-root {
+  /* .css-1k4g7q2-MuiPaper-root {
     height: 150px !important;
-  }
+  } */
 
   .layer {
     display: block ;
