@@ -1,25 +1,18 @@
 import * as React from 'react';
 import Box from '@mui/material/Box';
-import Paper from '@mui/material/Paper';
+
 import Grid from '@mui/material/Grid';
-import { styled } from '@mui/material/styles';
+
 
 import './index.css'
 
 
-const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  ...theme.typography.body2,
-  padding: theme.spacing(1),
-  textAlign: 'center',
-  color: theme.palette.text.secondary,
-}));
 
 
 // Generate Order Data
 function Orders() {
 
-  const [spacing, setSpacing] = React.useState(2);
+  
   
   return (
 
@@ -86,7 +79,7 @@ function Orders() {
               </div>          
             </div>
             <div>
-              <i class="fa-solid fa-dollar-sign"></i> 
+              <i className="fa-solid fa-dollar-sign"></i> 
               <h4>0</h4>
             </div>
           </div>              
@@ -104,7 +97,7 @@ function Orders() {
               </div>          
             </div>
             <div>
-              <i class="fa-solid fa-dollar-sign"></i> 
+              <i className="fa-solid fa-dollar-sign"></i> 
               <h4>0</h4>
             </div>
           </div>
@@ -144,10 +137,3 @@ export default Orders;
 
 
 
-
-{/* <div className='inner'>
-            
-          
-          
-          
-          </div> */}
