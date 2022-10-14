@@ -76,7 +76,7 @@ header{
 }
 
 .grid2 {
-  background: linear-gradient(90deg,#020024,#ffbd17 0,#df9f00);
+  background:green;
   border: 1px solid #6f6f7b;
   border-radius: 5px;
   transition: .2s;
